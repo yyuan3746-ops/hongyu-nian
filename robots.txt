@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yyuan3746-ops.github.io/hongyu-nian/sitemap.xml
