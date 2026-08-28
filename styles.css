@@ -2249,6 +2249,41 @@ address {
   }
 }
 
+
+/* Keep award and funding entries visually aligned with publication entries. */
+.award-item {
+  padding: 17px 0 19px;
+}
+
+.award-item h3 {
+  margin: 0;
+  font-size: clamp(18px, 1.55vw, 22px);
+  line-height: 1.38;
+  letter-spacing: -0.012em;
+}
+
+.award-item > div:nth-child(2) > p:last-child {
+  margin: 4px 0 0;
+  font-size: 13px;
+  font-weight: 620;
+  line-height: 1.45;
+}
+
+.timeline-date {
+  color: #7b8792;
+  font-weight: 500;
+}
+
+@media (max-width: 760px) {
+  .award-item {
+    padding: 16px 0 18px;
+  }
+
+  .award-item h3 {
+    font-size: 19px;
+  }
+}
+
 @media print {
   @page { margin: 16mm; }
 
