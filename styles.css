@@ -2142,6 +2142,24 @@ address {
   line-height: 1.55;
 }
 
+.teaching-list {
+  margin: 8px 0 0;
+  padding-left: 1.25em;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.teaching-list ul {
+  margin: 4px 0 0;
+  padding-left: 1.45em;
+}
+
+.teaching-list strong {
+  color: var(--ink);
+  font-weight: 650;
+}
+
 .refereeing-section {
   padding-block: clamp(42px, 4.5vw, 60px);
   border-top: 1px solid var(--line);
